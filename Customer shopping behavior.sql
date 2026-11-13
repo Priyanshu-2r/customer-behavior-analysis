@@ -11,7 +11,7 @@ from dbo.[cleaned_customer behavior]
 where discount_applied = 'Yes' and purchase_amount >= (select AVG(purchase_amount) from dbo.[cleaned_customer behavior]);
 
 --3 PRODUCT RATING ANALYSIS - RANKED THE TOP 5 PRODUCTS BY AVERAGE REVIEW RATING.
-SELECT
+SELECT TOP 5
     item_purchased,
     ROUND(AVG(TRY_CAST(review_rating AS DECIMAL(10,2))), 2)
         AS [Average Product Rating]
