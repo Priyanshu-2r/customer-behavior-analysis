@@ -30,7 +30,7 @@ This project aims to answer important business questions:
 - **Jupyter Notebook:** Python-based analysis.
 - **SQL Server (SSMS):** Business queries and data analysis.
 - **Power BI:** Interactive data visualization and dashboard development.
-- **Microsoft Excel:** Supporting data handling.
+- **Microsoft Excel:** inspection data.
 
  -- Project Workflow
 
